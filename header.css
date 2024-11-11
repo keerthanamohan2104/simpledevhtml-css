@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+
+}
+.left-sec{
+    background-color:lightblue;
+    width: 150px;
+
+}
+.middle-sec{
+    background-color: lightcoral;
+    flex: 1;
+    max-width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.right-sec{
+    background-color: greenyellow;
+    width: 250px;
+}
